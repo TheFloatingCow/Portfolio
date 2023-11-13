@@ -1,4 +1,12 @@
+import React, { Component } from 'react';
+import { Route, Switch } from 'react-router-dom';
+
 import logo from './logo.svg';
+import pogImg from './poggers.png';
+import classes from './App.css'
+import Home from './containers/Home/Home';
+import Toolbar from './components/Navigation/Toolbar/Toolbar';
+import Modal from './components/Modal/Modal';
 import './App.css';
 
 function App() {
@@ -6,17 +14,10 @@ function App() {
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
+        <img src={pogImg} className="Pog-logo" alt="logo" />
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          WEBSITE YEAAAAAA
         </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
       </header>
     </div>
   );
